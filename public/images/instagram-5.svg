@@ -1,0 +1,9 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#F5F0EB"/>
+  <rect x="110" y="140" width="680" height="620" rx="36" fill="#E8DDD3"/>
+  <rect x="205" y="280" width="200" height="280" rx="20" fill="#FFF9F4" stroke="#8B7355" stroke-width="7"/>
+  <rect x="495" y="280" width="200" height="280" rx="20" fill="#FFF9F4" stroke="#8B7355" stroke-width="7"/>
+  <path d="M400 425H500" stroke="#C4A265" stroke-width="8"/>
+  <path d="M450 385C450 430 405 450 360 450C405 450 450 485 450 520C450 485 495 450 540 450C495 450 450 430 450 385Z" fill="#E8C4C4"/>
+  <text x="270" y="655" fill="#8B7355" font-family="Arial" font-size="36" font-weight="700">COUPLE MUGS</text>
+</svg>

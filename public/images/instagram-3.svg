@@ -1,0 +1,10 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#F5F0EB"/>
+  <rect x="100" y="120" width="700" height="660" rx="42" fill="#E8DDD3"/>
+  <rect x="210" y="230" width="480" height="420" rx="20" fill="#FFF9F4" stroke="#8B7355" stroke-width="8"/>
+  <line x1="370" y1="240" x2="370" y2="640" stroke="#C4A265" stroke-width="6"/>
+  <line x1="530" y1="240" x2="530" y2="640" stroke="#C4A265" stroke-width="6"/>
+  <line x1="220" y1="370" x2="680" y2="370" stroke="#C4A265" stroke-width="6"/>
+  <line x1="220" y1="510" x2="680" y2="510" stroke="#C4A265" stroke-width="6"/>
+  <text x="262" y="725" fill="#8B7355" font-family="Arial" font-size="36" font-weight="700">MEMORY COLLAGE</text>
+</svg>

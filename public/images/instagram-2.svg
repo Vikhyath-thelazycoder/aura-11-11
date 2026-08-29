@@ -1,0 +1,8 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#F5F0EB"/>
+  <rect x="120" y="140" width="660" height="620" rx="36" fill="#E8DDD3"/>
+  <rect x="220" y="270" width="460" height="300" rx="16" fill="#FFF9F4" stroke="#C4A265" stroke-width="8"/>
+  <circle cx="450" cy="420" r="64" fill="#E8C4C4"/>
+  <path d="M450 380C450 435 395 460 330 460C395 460 450 510 450 560C450 510 505 460 570 460C505 460 450 435 450 380Z" fill="#C4A265"/>
+  <text x="292" y="660" fill="#8B7355" font-family="Arial" font-size="38" font-weight="700">GIFT SET LOVE</text>
+</svg>
