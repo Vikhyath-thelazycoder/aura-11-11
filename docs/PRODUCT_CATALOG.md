@@ -1,15 +1,23 @@
 # Product and customization intake
 
-The owner will provide the launch catalog. Start with one entry per sellable product. Rough notes or photos are enough to begin, and the team can structure the entries together.
+Fridge magnets, photo frames and gifting hampers are the first confirmed product families. Give each sellable design its own product page. Every product offers two choices on that page: **As shown** uses the studio’s published design, and **Personalize** lets the buyer change the fields enabled for the chosen variant. Apply the same model when adding future gifts.
 
-## Names and ideas received
+## Initial catalog
 
-| Item | Status |
-| --- | --- |
-| Superwallet | Product name received. Category, photos, variants, price and customization options pending. |
-| Photo frames | Example product category. Confirm actual products and supported options when catalog details arrive. |
+| Family | As shown | Personalize | Inputs to confirm before sale |
+| --- | --- | --- | --- |
+| Fridge magnets | Buy a magnet with the displayed design. | Apply the magnet’s enabled options. A photo and crop are useful pilot inputs. | Designs, dimensions, finish, permitted inputs, print area, media and proof rules. |
+| Photo frames | Choose a finish and buy the frame in its published configuration. Show what is included. | Choose the frame color and apply its enabled photo or text options. | Use five color variants for planning. Confirm the actual colors, sizes, included artwork, media and availability by SKU. |
+| Gifting hampers | Buy the listed assortment as one product. Show contents and quantities before checkout. | Keep the listed assortment and offer the personal touches approved for that hamper. A printed message is a pilot example. | Contents, quantities, packaging, permitted personalization, assembly time, and whether inventory is prepacked or drawn from components. |
 
-Use the confirmed descriptions, assets and personalization rules to design the corresponding storefront and product views.
+Superwallet remains a product name awaiting its family, variants, images and sellable specification. The examples above supply development fixtures. The owner approves the actual fields, designs, prices, stock, lead times and photos for each listing.
+
+## Product configuration
+
+- A variant identifies the physical item or finish. A frame’s color remains selectable in either purchase mode. Define variants and personalization fields as catalog data so another product can have a different number of colors or a different set of options.
+- Each product needs a complete as-shown design and at least one usable personalization option before publication. Only the personalized path asks for buyer artwork or text required by its template. Set prices, lead times and proof expectations for the selected configuration. An as-shown product may still be made to order.
+- When a buyer switches to As shown, quote and submit the studio design alone. Exclude inactive uploads, custom text, personalization fees and custom proof steps. Gift wrap and gift notes remain separate order options.
+- A hamper gets its own product, price, delivery profile and bag line. Freeze its contents and quantities when ordered. The first release supports owner-defined assortments. Customer-built assortments belong to the later Gift Bar builder.
 
 ## Product template
 
@@ -45,7 +53,7 @@ Use the confirmed descriptions, assets and personalization rules to design the c
 
 ## Intake order
 
-1. Send product names and each supported customization option.
+1. List the sellable designs in each family, with the as-shown configuration and the personalization options for each.
 2. Confirm prices, variants, materials, stock/capacity, and production lead times.
 3. Supply real assets and at least one usable example for each customization method.
 4. Confirm proof and shipping rules. Product publication requires usable prices, sellability, active customization rules where needed, and a configured delivery policy.

@@ -1,73 +1,30 @@
 # Aura 11:11 Gifting Studio
 
-Aura 11:11 is a personalized gifting storefront with a planned owner/admin and staff workspace. The current storefront direction combines [Gift Bar](design/homepage/03-gift-bar-concept.png) typography and UI with [One of One](design/homepage/05-one-of-one-concept.png) display type and personalization controls.
+Aura 11:11 is a personalized gifting storefront with a planned owner/admin and staff workspace. Buyers can choose fridge magnets, photo frames and gifting hampers as shown or personalize them on the same product page. See the [product catalog](docs/PRODUCT_CATALOG.md) for variants and open specifications. The current storefront direction combines [Gift Bar](design/homepage/03-gift-bar-concept.png) typography and UI with [One of One](design/homepage/05-one-of-one-concept.png) display type and personalization controls.
+
+## Local storefront preview
+
+Run `python3 -m http.server 4173 --bind 127.0.0.1 --directory storefront` from the repository root and open `http://127.0.0.1:4173/`. The homepage links to the magnet, frame and hamper designs. Demo prices, finishes and artwork are fixtures. The bag uses browser session storage and photo previews stay on the device.
 
 ## Project documentation
 
-Start with the [consolidated project plan and requirements](docs/README.md). The individual planning documents are also in the `docs/` folder.
+Use the [request router](AGENTS.md) to match a change to its work package, inputs and acceptance checks. The store owner approves the catalog, commercial rules, providers and launch readiness.
 
-| Document | Covers |
+| Topic | Governing source |
 | --- | --- |
-| [PID](docs/PID.md) | Project purpose, ownership, scope and release criteria |
-| [PRD](docs/PRD.md) | What the storefront and back office need to do |
-| [System Flow](docs/systemflow.md) | Buyer, production, shipping, billing and support workflows |
-| [TRD](docs/TRD.md) | Backend location, architecture, data, integrations, permissions and tests |
-| [Implementation Plan](docs/IMPLEMENTATION_PLAN.md) | Build sequence, dependencies and acceptance criteria |
-| [Product Catalog](docs/PRODUCT_CATALOG.md) | Intake for products, variants and customization rules |
-| [Feature Register](docs/FEATURES.md) | Launch scope and proposed additions |
-| [Operations](docs/OPERATIONS.md) | Roles, work queues, notifications and release procedures |
-| [Project Decisions](docs/PROJECT_DECISIONS.md) | Confirmed choices and decisions still open |
-| [Homepage Concepts](design/homepage/README.md) | Locked design and alternate concepts |
+| Confirmed choices and open owner inputs | [Project decisions](docs/PROJECT_DECISIONS.md) |
+| Buyer and staff requirements | [Product requirements](docs/PRD.md) |
+| Magnets, frames and hampers, purchase modes, variants and asset intake | [Product catalog](docs/PRODUCT_CATALOG.md) |
+| Buyer, production and fulfillment transitions | [System flow](docs/systemflow.md) |
+| Architecture, data, provider interfaces and trust boundaries | [Technical requirements](docs/TRD.md) |
+| URL families, access, caching, redirects and recovery | [Application routes](docs/ROUTES.md) |
+| Current visual references and page review criteria | [Design record](design/homepage/README.md) and [UI review](design/UI_REVIEW.md) |
+| Permissions, queues and recovery procedures | [Operations](docs/OPERATIONS.md) |
+| Coupon eligibility, reservations and refunds | [Promotions](docs/PROMOTIONS.md) |
+| Work packages, dependencies and acceptance evidence | [Implementation plan](docs/IMPLEMENTATION_PLAN.md) |
+| Public launch and arrival-date pilot criteria | [Launch readiness](docs/LAUNCH_READINESS.md) |
 
-## Previous storefront baseline
 
-These commands describe the original Vite source. The current checkout has pre-existing tracked source deletions. Confirm which source to continue from before application work.
+## Fresh application baseline
 
-### Tech Stack
-
-- Vite
-- React 18
-- TypeScript
-- Tailwind CSS
-- shadcn-ui
-- Vitest
-
-### Getting Started
-
-#### Prerequisites
-
-- Node.js 18+
-- npm 9+
-
-#### Install and Run
-
-```sh
-npm install
-npm run dev
-```
-
-The app runs locally with Vite at the URL shown in your terminal.
-
-### Scripts
-
-- `npm run dev` - start development server
-- `npm run build` - create production build
-- `npm run preview` - preview production build locally
-- `npm run lint` - run ESLint
-- `npm run test` - run tests once
-- `npm run test:watch` - run tests in watch mode
-
-### Project Structure
-
-- `src/pages` - route-level pages
-- `src/components` - reusable UI and feature components
-- `src/context` - cart and wishlist state providers/hooks
-- `src/data` - static product/category data
-
-### Deployment
-
-Deploy the generated `dist/` output from:
-
-```sh
-npm run build
-```
+Aura 11:11 will start from a fresh application scaffold in this repository. The previous Vite storefront is available in Git history at `d2adb80`. Use the [implementation plan](docs/IMPLEMENTATION_PLAN.md) for the foundation, storefront, and launch work.

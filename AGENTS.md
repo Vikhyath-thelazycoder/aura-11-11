@@ -1,0 +1,18 @@
+# Working on Aura 11:11
+
+Use the request to select the smallest applicable row below. Package numbers refer to the [implementation plan](docs/IMPLEMENTATION_PLAN.md). For work spanning rows, follow the dependencies in that plan and test the handoff between them. For an audit or proposal, report findings and distinguish planned behavior from observed results.
+
+| Request | Package and sources | Start with | Evidence of completion |
+| --- | --- | --- | --- |
+| Set up the project, choose the stack, or change scope | 0 · [Decisions](docs/PROJECT_DECISIONS.md), [product requirements](docs/PRD.md), [technical requirements](docs/TRD.md) | Confirm the fresh baseline, accepted decisions and open inputs | Record the choice and affected package. For scaffold work, demonstrate the clean build. |
+| Add a URL, sign-in, permissions, or an account return | 1 plus the affected feature · [Route map](docs/ROUTES.md), [trust boundaries](docs/TRD.md#controls-at-trust-boundaries), [roles](docs/OPERATIONS.md#workspaces-and-permissions) | Identify the actor, resource and allowed destination | Exercise a direct visit, reload, expiry and access by another user or role. |
+| Build a storefront page or change CMS, navigation or theme | 2 · [UI review](design/UI_REVIEW.md), [route map](docs/ROUTES.md), [publishing](docs/IMPLEMENTATION_PLAN.md#publishing-and-deletion) | Select the page purpose, approved visual references and fixture content | Review the rendered page and primary action. For CMS work, demonstrate private preview, publish and rollback. |
+| Build a product page, customization, upload or bag | 2 + 3 · [UI review](design/UI_REVIEW.md), [catalog](docs/PRODUCT_CATALOG.md), [route map](docs/ROUTES.md), [technical requirements](docs/TRD.md) | Use the relevant magnet, frame or hamper fixture in both purchase modes | Recover from an invalid option, preserve valid inputs and add the exact configured line. Prove private asset isolation for upload changes. |
+| Change checkout, coupons, payments, invoices or refunds | 4 · [Promotions](docs/PROMOTIONS.md), [order flow](docs/systemflow.md), [technical requirements](docs/TRD.md) | Start with a server quote, fixture delivery response and buyer identity | Match the frozen amounts after interruption or retry. Record Cashfree sandbox evidence for provider integration. |
+| Change proof, production, QC, packing or support | 5 · [Order flow](docs/systemflow.md), [operations](docs/OPERATIONS.md), [route map](docs/ROUTES.md) | Use a paid line and the assigned role | Verify the allowed transition, stale revision handling and restricted access. |
+| Change shipping, tracking, notifications or arrival filtering | 6 · [Order flow](docs/systemflow.md), [operations](docs/OPERATIONS.md), [arrival gate](docs/LAUNCH_READINESS.md#arrival-date-pilot-gate) | Use verified order events, packing state and the delivery quote contract | Demonstrate an exception and a safe retry. Use pilot evidence for public date filtering. |
+| Audit, fix a regression, or prepare release | Owning package, plus 7 for release · [acceptance cases](docs/IMPLEMENTATION_PLAN.md#audit-acceptance-cases), [readiness](docs/LAUNCH_READINESS.md) | Trace the affected user journey and identify which evidence exists | Report the observed result, remaining uncertainty and relevant phase gate. For a fix, exercise the original failure through its normal entry point. |
+
+The [source index](README.md#project-documentation) identifies the owner of each topic. Confirmed Aura decisions govern conflicts. Changes to an open business decision belong in the decision log once the owner confirms them. Use fixtures for unresolved catalog and provider inputs.
+
+Use tools already available for the task.
